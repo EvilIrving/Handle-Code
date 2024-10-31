@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 import { version } from '../../package.json'
 
 export default defineConfig({
-  base: '/vitepress-blog-starter/',
+  base: '/',
   description: 'Blog included. Built on top of VitePress and UnoCSS.',
   markdown: {
     headers: {
