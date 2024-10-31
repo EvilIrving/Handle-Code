@@ -91,21 +91,17 @@ function sidebarGuide() {
       collapsible: true,
       items: [
         { text: '数组去重（多种方案）', link: '/guide/basic/array/unique' },
-        { text: '数组扁平化（多种方案）', link: '/guide/basic/array/flatten' },
+        { text: '数组扁平化', link: '/guide/basic/array/flatten' },
         {
           text: '数组排序（冒泡、选择、快速）',
           link: '/guide/basic/array/sort',
         },
         {
-          text: '实现数组的 map、filter、reduce',
-          link: '/guide/basic/array/map',
-        },
-        {
-          text: '实现数组的 push、pop、shift、unshift',
-          link: '/guide/basic/array/push',
+          text: 'Array 原生方法',
+          link: '/guide/basic/array/orginal',
         },
         { text: '字符串单词反转', link: '/guide/basic/string/reverse' },
-        { text: '实现字符串模板引擎', link: '/guide/basic/string/template' },
+        { text: '字符串匹配算法（KMP）', link: '/guide/basic/string/template' },
         {
           text: '判断回文字符串（多种方案）',
           link: '/guide/basic/string/palindrome',
